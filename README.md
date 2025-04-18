@@ -2,6 +2,48 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
 
+# OSVS (Open Source Vulnerability Scanner)
+
+OSVS is a web-based tool designed to aid educational institutions in monitoring and managing vulnerabilities in software repositories. Built with an Angular frontend and a Spring Boot backend, OSVS helps streamline security scans, manage lab sessions, and simplify user authentication with SSO integration.
+
+## 🔧 Tech Stack
+
+- **Frontend**: Angular
+- **Backend**: Spring Boot (Java)
+- **Database**: PostgreSQL
+- **Authentication**: Microsoft SSO with MFA (Azure Active Directory)
+- **Tools**: Postman (for API testing), GitHub (for version control)
+
+## 💡 Features
+
+- **Lab Attendance Management**
+  - Tracks lab sessions, lab executives, and student attendance.
+  - Inherits roles through a structured `User` entity hierarchy.
+
+- **Vulnerability Scanning (Planned/Experimental)**
+  - GitHub repository integration for secret scanning.
+  - Push protection handling via GitHub’s code security rules.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and Angular CLI
+- Java (JDK 17+)
+- PostgreSQL
+- Git
+- Access to Microsoft Azure AD (for SSO testing)
+
+### Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/KaijieWan/OSVS.git
+cd OSVS
+
+ - Be sure to generate your own GitHub API token
+
 ## Development server
 
 To start a local development server, run:
