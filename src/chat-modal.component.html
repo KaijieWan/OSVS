@@ -1,0 +1,17 @@
+<div class="chat-modal-container">
+    <div class="chat-header">
+      <h2>Chat with Gemini</h2>
+      <button class="close-button" (click)="closeChat()">X</button>
+    </div>
+  
+    <div class="chat-history">
+      <div *ngFor="let message of chatHistory" class="message">
+        <!--<span>{{ message }}</span>-->
+        <div [innerHTML]="formatMarkdown(message)"></div>
+      </div>
+    </div>
+  
+    <textarea [(ngModel)]="userMessage" placeholder="Ask about vulnerabilities..."></textarea>
+    <button (click)="sendMessage()" style="width: 100px;">Send</button>
+  </div>
+  

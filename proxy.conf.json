@@ -1,0 +1,16 @@
+{
+    "/maven": {
+      "target": "https://search.maven.org",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": { "^/maven": "" },
+      "logLevel": "debug"
+    },
+    "/snyk": {
+      "target": "https://snyk.io",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": { "^/snyk": "" },
+      "logLevel": "debug"
+    }
+  }

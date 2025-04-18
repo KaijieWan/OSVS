@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+::ng-deep .custom-chat-dialog .mat-dialog-container {
+    width: 1000vw !important;   // or whatever width you want
+    height: 80vh !important;
+    max-width: none !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }

@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin-top: 0px;
+}
+
+.main-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.results-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    ;
+    //border-radius: 2px;
+    border-spacing: 0 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 3px;
+  }
+
+  
